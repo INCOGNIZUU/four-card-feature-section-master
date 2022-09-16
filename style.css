@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container {
+  width: 90%;
+  text-align: center;
+  padding: 20px 0;
+}
+body .container header h1 {
+  font-weight: 200;
+  font-size: 1.8rem;
+  margin: 0;
+}
+body .container header h2 {
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin: 0;
+}
+body .container header p {
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+body .container main .cards {
+  text-align: left;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  padding: 30px 30px 100px 30px;
+  margin: 20px 0;
+  position: relative;
+}
+body .container main .cards img {
+  float: right;
+}
+body .container main #supervisor {
+  border-top: 10px solid hsl(0deg, 78%, 62%);
+}
+body .container main #teamBuilder {
+  border-top: 10px solid hsl(180deg, 62%, 55%);
+}
+body .container main #karma {
+  border-top: 10px solid hsl(34deg, 97%, 64%);
+}
+body .container main #calculator {
+  border-top: 10px solid hsl(212deg, 86%, 64%);
+}
+@media (min-width: 768px) {
+  body .container main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  body .container main .cards {
+    width: 300px;
+    margin: 10px;
+  }
+}/*# sourceMappingURL=style.css.map */
